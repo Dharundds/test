@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 import toPdf from "./component/toPdf";
-import { GoogleSpreadsheet } from "google-spreadsheet";
 
 function App() {
   const [name,setName] = useState("");
